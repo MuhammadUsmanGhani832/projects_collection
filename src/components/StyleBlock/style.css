@@ -1,0 +1,16 @@
+.style-block-box{
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    flex-wrap: wrap ;
+}
+
+.style-block-box div{
+    height: 4px;
+    width: 4px;
+    background-color: #fff  ;
+    border-radius: 50%;
+}

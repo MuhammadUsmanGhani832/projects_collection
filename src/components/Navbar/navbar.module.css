@@ -1,0 +1,27 @@
+.navbarContainer{
+   display: flex;
+   align-items: center;
+
+    height: 65px;
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+
+.navbarContainer a{
+     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    color: inherit;
+}
+.navbarContainer a p{
+    margin-left: 5px;
+    line-height: 2px;
+    cursor: pointer;
+}
+ .navbarContainer a:hover{
+    color: #5F81FD;
+    text-decoration: underline;
+}
+    
