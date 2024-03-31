@@ -1,7 +1,6 @@
 import styles from './home.module.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Projects from '../../components/Projects/Projects';
-import StyleBlock from '../../components/StyleBlock/StyleBlock';
 import Footer from '../../components/Footer/Footer';
 
 
