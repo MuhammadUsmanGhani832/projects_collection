@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter basename="/projects">
+      <BrowserRouter>
         <div>
           <Routes>
             <Route
