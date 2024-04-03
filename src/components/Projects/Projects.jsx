@@ -84,6 +84,44 @@ const Projects = () => {
                 : styles.hiddenClass
             }`}
           >
+            <img src="/dice-game.png" alt="dice game react" />
+            <div className={styles.tools}>
+              <span>React</span>
+              <span>JavaScrip</span>
+            </div>
+            <div className={styles.detail}>
+              <h2
+                onClick={() =>
+                  window.open(
+                    "https://contact-us-page-muhammad-usman.netlify.app/",
+                    "_blank"
+                  )
+                }
+              >
+                Dice Game
+              </h2>
+              <p>Simple dice game build with React and JavaScrip</p>
+              <div>
+                <span
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/MuhammadUsmanGhani832/dice-game-react-app",
+                      "_blank"
+                    )
+                  }
+                >
+                  Github
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`${styles.project} ${
+              isSelected === "react" || isSelected === "all"
+                ? styles.showClass
+                : styles.hiddenClass
+            }`}
+          >
             <img src="/contact-us-page.png" alt="contact-us-page react" />
             <div className={styles.tools}>
               <span>HTML</span>
