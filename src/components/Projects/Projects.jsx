@@ -25,51 +25,66 @@ const Projects = () => {
             {/* projects container */}
             <div className={styles.projectsContainer}>
                 {/* 1st project */}
-                <div className={`${styles.project} ${isSelected === "html" || isSelected === "all" ? styles.showClass : styles.hiddenClass}`}>
-                    <img src="/Rectangle.png" alt="" />
+                <div
+                    className={`${styles.project} ${isSelected === "html" || isSelected === "all" ? styles.showClass : styles.hiddenClass}`}>
+                    <img src="/ecomerance-website-cara.png" alt="ecomerance websit cara" />
                     <div className={styles.tools}>
                         <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>hello</span>
+                        <span>CSS</span>
+                        <span>JavaScrip</span>
                     </div>
                     <div className={styles.detail}>
-                        <h2>ChertNodes</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quidem.</p>
+                        <h2
+                            onClick={() => window.open('https://ecomerance-responsive-website.netlify.app/', '_blank')}
+                        >Ecomerance Custom Website</h2>
+                        <p>Fully responsive e-comrance website build with basice Html Css JavaScrip</p>
                         <div>
-                            <span>Github</span>
-                            <span>Github</span>
+                            <span
+                                onClick={() => window.open('https://github.com/MuhammadUsmanGhani832/ecommerce_website', '_blank')}>Github</span>
                         </div>
                     </div>
                 </div>
-                {/* 1st project */}
-                <div className={`${styles.project} ${isSelected === "html" || isSelected === "all" ? styles.showClass : styles.hiddenClass}`}>
-                    <img src="/Rectangle.png" alt="" />
+                {/* 2nd project */}
+                <div
+                    className={`${styles.project} ${isSelected === "html" || isSelected === "all" ? styles.showClass : styles.hiddenClass}`}>
+                    <img src="/portfolio-website.png" alt="" />
                     <div className={styles.tools}>
                         <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>HTML</span>
-                        <span>hello</span>
+                        <span>CSS</span>
+                        <span>JavaScrip</span>
                     </div>
                     <div className={styles.detail}>
-                        <h2>ChertNodes</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quidem.</p>
-                        <span>Github</span>
-                        <span>Github</span>
+                        <h2
+                            onClick={() => window.open('https://muhammad-usman-profile.netlify.app/', '_blank')}
+                        >Portfolio Website</h2>
+                        <p>Responsive websit create with HTLM, CSS and JavaScript</p>
+                        <div>
+                            <span
+                                onClick={() => window.open('https://github.com/MuhammadUsmanGhani832/my_portfolio', '_blank')}>Github</span>
+                        </div>
                     </div>
                 </div>
+                {/* 2nd project */}
+                <div
+                    className={`${styles.project} ${isSelected === "html" || isSelected === "all" ? styles.showClass : styles.hiddenClass}`}>
+                    <img src="/analog-clock.png" alt="" />
+                    <div className={styles.tools}>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScrip</span>
+                    </div>
+                    <div className={styles.detail}>
+                        <h2
+                            onClick={() => window.open('https://analog-and-digital-clock-html-css-js.netlify.app/', '_blank')}
+                        >Analog Clock</h2>
+                        <p>Simple responsive analog and digital clock</p>
+                        <div>
+                            <span
+                                onClick={() => window.open('https://github.com/MuhammadUsmanGhani832/analog_clock', '_blank')}>Github</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     );

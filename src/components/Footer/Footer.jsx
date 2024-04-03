@@ -1,6 +1,9 @@
 import './style.css'
 import { BsFacebook } from "react-icons/bs";
-
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -18,10 +21,10 @@ const Footer = () => {
                     <h2>Media</h2>
                     <div>
                         <span><BsFacebook /></span>
-                        <span><BsFacebook /></span>
-                        <span><BsFacebook /></span>
-                        <span><BsFacebook /></span>
-                        <span><BsFacebook /></span>
+                        <span><FaInstagram /></span>
+                        <span><FaTwitterSquare /></span>
+                        <span><FaLinkedin /></span>
+                        <span><FaGithub /></span>
                     </div>
                 </div>
             </div>

@@ -51,13 +51,17 @@
    max-width: 285px;
    min-height: 391px;
    border: 1px solid gray;
-   cursor: pointer;
+   
    background-color: #131726;
 
 }
 
 .project:hover{
     box-shadow: 0 0 5px 5px gray;
+}
+.project:hover .detail h2{
+    color: #C778DD;
+    text-decoration: underline;cursor: pointer;
 }
 
 .project img{
@@ -88,6 +92,7 @@
 min-height: 160px;
     padding: 5px;
 }
+
 .detail p{
     font-size: 14px;
     color: gray;
@@ -97,15 +102,21 @@ min-height: 160px;
    align-self: flex-end;
 }
 .detail >div>span{
-    font-size: 16px;
+    font-size: 12px;
     background-color: #C778DD;
     color: #131726;
     padding: 5px;
     border-radius: 10px;
     margin-right: 5px;
     cursor: pointer;
+    z-index: 99;
 }
 
+.detail >div>span:hover{
+    background-color: #394774;
+    color: #fff;
+    border: 1px solid #fff;
+}
 
 
 
