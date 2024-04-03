@@ -27,13 +27,33 @@
 }
 
 .footer_media{
-    width: 136px;
+    width: 200px;
+    
+}
+.footer_media>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .footer_media span{
-    padding: 2px;
+    padding: 5px;
     margin: 3px;
+cursor: pointer;
+border: 1px solid transparent;
 
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+transition: 0.3s ease-in-out;
+}
+
+.footer_media span:hover{
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
 }
 
 .footer_sub_container2 p{
