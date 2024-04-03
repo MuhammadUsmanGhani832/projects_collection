@@ -93,7 +93,7 @@ const Projects = () => {
               <h2
                 onClick={() =>
                   window.open(
-                    "https://contact-us-page-muhammad-usman.netlify.app/",
+                    "https://dice-game-react-app-usman.netlify.app/",
                     "_blank"
                   )
                 }
@@ -155,6 +155,44 @@ const Projects = () => {
             </div>
           </div>
           {/* 2nd project */}
+          <div
+            className={`${styles.project} ${
+              isSelected === "react" || isSelected === "all"
+                ? styles.showClass
+                : styles.hiddenClass
+            }`}
+          >
+            <img src="/quiz-app-react.png" alt="" />
+            <div className={styles.tools}>
+              <span>React</span>
+              <span>JavaScrip</span>
+            </div>
+            <div className={styles.detail}>
+              <h2
+                onClick={() =>
+                  window.open(
+                    "https://react-quiz-app-usman.netlify.app/",
+                    "_blank"
+                  )
+                }
+              >
+                Quiz App
+              </h2>
+              <p>Simple Quiz app in React and JavaScrip</p>
+              <div>
+                <span
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/MuhammadUsmanGhani832/landing-page-UI-react-app",
+                      "_blank"
+                    )
+                  }
+                >
+                  Github
+                </span>
+              </div>
+            </div>
+          </div>
           <div
             className={`${styles.project} ${
               isSelected === "html" || isSelected === "all"
